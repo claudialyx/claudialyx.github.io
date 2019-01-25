@@ -1,0 +1,80 @@
+.jumbotron{
+	background-image:url("./images/architecture.jpg");
+	background-size:100% 100%;
+	height:300px;
+	width:auto;
+	position:relative;
+}
+
+.jumbotron-header{
+	top:25%;
+	left:5%;
+	margin:10px;
+	position:absolute;
+}
+
+#quote {
+	background-color:rgba(255,255,255,0.5);
+}
+
+#profile-image img{
+	width:150px;
+	height:150px;
+	border-radius:50% 50%;
+	margin:10px;
+}
+
+.container-fluid{
+	display:flex;
+}
+
+p {
+	text-align:justify;
+}
+
+.skills{
+	list-style-type:none;
+	display:flex;
+	flex-direction:column;
+	padding:0;
+	align-content:flex-start;
+}
+
+.skills-acquired{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	display:flex-start;
+}
+
+.section {
+	margin:10px;
+}
+
+.gallery img {
+	margin:10px;
+}
+
+.links{
+	display:flex-grow;
+	flex-direction:row;
+	align-items:space-between;
+}
+
+h3 {
+	width:100%;
+	display:flex;
+}
+
+.contact-me{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+
+.link-top{
+	display:flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
